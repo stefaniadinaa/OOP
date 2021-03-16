@@ -23,10 +23,16 @@ Recruiter : contain a field that represents its rating, a value that will help w
 Job : A user can only apply for jobs that have not already been closed & the list of constraints for job.
 
 Constraint : 3 constraints: one for the year of graduation accepted, one for the number of years of experience, one for academic media.
+
 Company : is the class that shapes a company within the application.
+
 Department : A department is represented in our application by an abstract class that will contain the list of employees in that department, a list of available jobs in that department.
+
 IT : Everyone in the IT department is exempt from taxes.
+
 Marketing : Those in the Marketing department who have a higher salary of 5,000 lei will have a tax equal to 10%, and all those with a salary of less than 3,000 lei will be exempt from taxes
+
 Management : All those in the Management department will have a tax equal to 16%.
+
 Finance : All those in the Finance department who have less seniority in a year will have a tax equal to 10%, and for everything else, the tax will be 16%.
 
